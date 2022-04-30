@@ -5,6 +5,12 @@ div.hidden {
 div.active {
   border: 5px solid red;
 }
+div.inactive{
+  display: none;
+}
+ul li{
+  display: inline;
+}
 
 img.bigcoin {
   width: 50px;
@@ -12,4 +18,7 @@ img.bigcoin {
 
 img.smallcoin {
   width: 50px;
+}
+img#callcoin {
+  opacity: 0.5;
 }
